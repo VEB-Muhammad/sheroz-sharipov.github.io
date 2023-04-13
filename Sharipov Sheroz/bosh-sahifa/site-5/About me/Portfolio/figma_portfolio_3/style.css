@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.forma {
+    width: 514px;
+    height: 479px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0 auto;
+    background: #7270D2;
+}
+
+.forma-title {
+    /* margin-top: 53px; */
+    margin: 53px 0 29px 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.forma-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 391px;
+    height: 55.21px;
+    margin-bottom: 17.79px;
+    padding-left: 20px;
+}
+
+.mail {
+    border: 1px solid #F54545;
+}
+
+.mail::placeholder {
+    color: #F54545;
+}
+
+::placeholder {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    /* line-height: 18px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* margin-left: 15px; */
+    color: #0000008A;
+    position: absolute;
+    top: 35%;
+    left: 20px;
+}
+
+.btn-sub {
+    background-color: #FFD362;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 580px) {
+    .forma {
+        width: 90%;
+        margin: 0 auto;
+    }
+    input {
+        width: 16pc;
+        height: 55.21px;
+        margin-bottom: 17.79px;
+        padding-left: 20px;
+        padding: 15px;
+    }
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.desc {
+    max-width: 320px;
+    background: blue;
+    color: white;
+    padding: 15px;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    /*text-align-last: center;*/
+    border-radius: 15px;
+}
+
+span {
+    text-decoration: underline;
+    background: yellow;
+    color: black;
+    font-weight: bold;
+    padding: 0 5px;
+}
